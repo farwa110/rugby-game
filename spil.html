@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rugby.css">
+    <title>Rugbygame</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="/">
+                <img src="svg/logo.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./spil.html">Spil</a></li>
+                <li><a href="./assets.html">Assets</a></li>
+                <li><a href="./grafik.html">Grafik</a></li>
+                <li><a href="./teknik.html">Teknik</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <h1 class="luckiest-guy-regular">HIT OR MISS</h1>
+    </div>
+
+    <script src="menu.js"></script>
+
+    <div id="screen">
+        <div id="game">
+            <div id="game_background">
+
+            </div>
+            <div id="game_elements">
+                <div id="redball_container">
+                    <div id="redball_sprite"></div>
+                </div>
+                <div id="blueball_container">
+                    <div id="blueball_sprite"></div>
+                </div>
+            </div>
+            <div id="game_foreground"></div>
+            <div id="game_ui">
+                <h1 id="point">Point : 0</h1>
+                <!-- <div id="score_board"></div>
+                <div id="life_board"></div>
+                <div id="time_board"></div> -->
+            </div>
+        </div>
+        <!-- <div id="start"></div>
+        <div id="game_level"></div>
+        <div id="level_complete"></div> -->
+    </div>
+    <script src="rugby.js"></script>
+</body>
+
+</html>
